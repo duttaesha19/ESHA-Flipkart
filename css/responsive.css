@@ -1,0 +1,130 @@
+@media screen and (max-width:1100px){
+    header{
+        flex-direction: column;
+        height:180px;justify-content: center;align-items: center;
+    }
+    .box1{
+        height:5px;align-self: center;
+    }
+    .box3{
+    
+        width: 620px;
+        height: 50px;justify-content: center;
+        align-items: center;
+    }
+    .box4{
+        width: 356px;
+height: 50px;
+    }
+    .box2 {
+
+width: 100px;
+height: 80px;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+
+    .obj{
+        height:1100px;
+    }
+    .ending {
+        height: 700px;
+        position: absolute;
+        top: 129%;
+    }
+.footer {
+    margin-top: 100px;
+    position: absolute;
+    top: 178%;
+}
+}
+
+@media screen and (max-width:900px){
+  
+    .ending {
+        height: 700px;
+        position: absolute;
+        top: 132%;
+    }
+
+    .footer {
+        margin-top: 100px;
+        position: absolute;
+        top: 185%;
+        right: -1%;
+    }
+}
+
+@media screen and (max-width:770px){
+   
+    .ending {
+        position: absolute;
+        top: 135%;
+    }
+
+    .footer {
+        margin-top: 50px;
+        position: absolute;
+        top: 195%;
+        right: -1%;
+    }
+}
+@media screen and (max-width:690px){
+    .footer {
+        margin-top: 50px;
+        position: absolute;
+        top: 210%;
+        right: -1%;
+    }
+
+    .ending {
+        position: absolute;
+        top: 135%;
+        height: 841px;
+    }
+
+}
+
+@media screen and (max-width:500px){
+  
+    .ending {
+        position: absolute;
+        top: 140%;
+        height: 841px;
+    }
+    .footer {
+        margin-top: 50px;
+        position: absolute;
+        top: 230%;
+        right: -1%;
+    }
+}
+
+@media screen and (max-width:550px){
+    .ending {
+        position: absolute;
+        top: 138%;
+        height: 841px;
+    }
+    .footer {
+        margin-top: 50px;
+        position: absolute;
+        top: 220%;
+        right: -1%;
+    }
+
+}
+    @media screen and (max-width:453px){
+        .ending {
+            position: absolute;
+            top: 140%;
+            height: 875px;
+        }
+        .footer {
+            margin-top: 50px;
+            position: absolute;
+            top: 230%;
+            right: -1%;
+        }
+    }

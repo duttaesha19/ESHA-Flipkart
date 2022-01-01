@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap');
+:root{
+    --main-bg-color:#2874f0;
+   
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+.logo > a {
+    height:60px;width:100px;
+}
+body{
+    display:flex;flex-direction: column;height:2050px;
+}
+header{
+    height:80px;
+    background-color: var( --main-bg-color);color: white;
+    display:flex;flex-direction: row;
+}
+ .box1{
+     width:200px;
+ }
+
+
+
+ 
+ .box2 img{
+
+    height: 77px;
+    width: 84px;
+    position: relative;
+    top: 0%;
+    right: -9%;
+    }
+    .box2{
+        width:100px;
+    }
+    .box3{
+        width:620px;
+        display:flex;justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .box3 #searchbar{
+    align-items: center;
+    height: 30px;
+    width: 30vw;cursor: pointer;
+    }
+    .box3 #searchbutton{
+   cursor: pointer;
+    height: 34px;
+    width: 64px;
+    border: double white;
+    border-radius: 4%;
+    color: white;
+    background-color: var(--main-bg-color);
+    }
+ .box4{
+     width:356px;
+ }
+.box4 > a{
+    top: 56%;
+    position: relative;
+    left: 50.317px;
+    color: #f2ede7;margin-right:54px;font-family:  Georgia, Times, 'Times New Roman', serif;
+ }
+ .box4> a:link{
+     text-decoration: none;
+ }
+.box4 > a:hover{
+    color:white;
+}
+
+
+main{
+    background-color:#eaedf2;width: 100%;
+    overflow: hidden;
+    height: 2050px;
+    display:flex;
+    flex-direction: column;
+}
+.bbd{
+    width:100%;
+}
+.bbd h3{
+    font-family: 'Roboto', sans-serif;color: black;margin-left: 13px;
+    margin-right: 13px;font-size:20px;
+
+    margin-bottom: 15px;
+margin-top: -1px;
+padding-top: 22px;
+}
+main .bbd p{
+color:#838a8a;margin-left: 13px;
+margin-right: 13px;
+font-family:  Arial, Helvetica, sans-serif;font-size: 12px;
+
+letter-spacing: 0.008em;
+line-height: 1.4;
+}
+main .bbd h2{
+    margin-left: 13px;
+margin-right: 13px;
+}
+.obj{
+  margin-left: 13px;margin-top: 14px;
+    margin-right: 13px; height:1100px;background-color: white;
+    overflow:hidden;
+}
+.heading1{
+    width:1235px;
+    height:70px;margin-left: 13px;
+    margin-right: 13px;
+}
+.heading1 p{
+     color:black;color: black;
+     font-size: 23px;font-family: 'Roboto', sans-serif;
+     margin-top: 0px;
+padding-top: 24px;
+}
+.heading1 h3{
+    color: #bbc6c6;font-family: 'Roboto', sans-serif;padding-top: 5px;
+}
+#view{
+    position: relative;
+    top: -65%;
+    left: 86%;
+    width: 97px;
+    height: 36px;
+    background-color: var(--main-bg-color);
+    color: white;border-radius: 5px;
+    border-style: none;
+    transition-property:width;
+
+}
+#view:hover{
+    width:93px;  transition-timing-function: ease-in;height:32px
+}
+hr{
+    color: #f2f2f2;padding-top: 0px;
+    margin-top: 19px;
+}
+#fur{
+height:250px; display:flex; overflow: scroll;
+}
+.fur1{
+width:237px;margin-left: 34px;
+margin-right: 34px;
+}
+.fur1 img{
+ 
+  height: 126px;
+width: 170px;
+justify-content: center;
+
+}
+#p1{
+    font-family: 'Roboto', sans-serif;margin-left: 56px;
+    width: 119px;
+}
+#p2{
+    font-family:Arial, Helvetica, sans-serif ;width: 119px;
+    margin-left: 57px;color:#26a541;
+}
+#p3{
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    width: 119px;
+margin-left: 50px;
+letter-spacing: -0.035em;
+font-weight: 400;
+font-size: 14px;color: gray;
+font-stretch: semi-expanded;
+}
+.ending{
+    background-color:white ;margin-left: 13px;margin-top: 14px;
+    margin-right: 13px; height:600px;
+}
+.ending h2{
+    margin-bottom: 50px;
+margin-left: 29px;
+font-size: 17px;
+margin-top: 0px;
+padding-top: 42px;
+  color: #777;
+
+}
+.ending h4{
+    margin-left: 28px;
+    margin-right: 28px;
+    font-size: 13px;color: #aca9a9;
+} 
+.footer{
+
+     width: 100%;
+height: 50px;
+background-color: var( --main-bg-color);
+color: white;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+margin-left: 13px;
+margin-top: 14px;
+margin-right: 13px;
+}
